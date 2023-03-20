@@ -28,7 +28,7 @@ public class PeminjamanController {
                 dialogUI.setLocationRelativeTo(null);
                 dialogUI.setVisible(true);
             } 
-            else Perpustakaan.formPencarian.display(listBuku);
+            else Perpustakaan.formPeminjaman.display(listBuku);
         } catch(Exception ex) {
             DialogUI dialogUI = new DialogUI("Connection Error");
             dialogUI.pack();
